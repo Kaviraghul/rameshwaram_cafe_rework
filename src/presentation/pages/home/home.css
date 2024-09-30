@@ -1,0 +1,73 @@
+.home_page{
+    background-color: #faf3eb;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.drawer_componet{
+    width: 300px;
+    height: 100vh;
+    background-color: #171614;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer_componet_content{
+    position: relative;
+    width: 100%;
+
+}
+
+.drawer_componet_sections{
+   text-align: center;
+   list-style-type: none;
+   width: 100%;
+}
+
+.drawer_componet_sections_item{
+    padding: 15px;
+    color: white;
+}
+
+.drawer_componet_sections_item:hover{
+    background-color: #e88f2a;
+}
+
+
+.drawer_componet_section{
+    list-style-type: none;
+}
+
+hr {
+    height: 0.05px;
+    width: 80%;
+    border: none;
+    background-color: grey;
+    margin: 20px 20px;
+    width: 80%;
+    border: none;
+    margin: 20px 20px;    ; 
+  }
+
+  .copy_rights{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  .drawer_componet_logo{
+    width: 255px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .activeLink{
+    color: red;
+  }
+
+  .inActiveLink{
+    color: white;
+  }
